@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './App.css';
 
-const API_URL = "https://todo-application-1-vyoo.onrender.com/todos"; // FastAPI backend
+// Backend URL
+const API_URL = "https://todo-application-1-vyoo.onrender.com/todos"; 
 
 const App = () => {
   const [todo, setTodo] = useState("");
